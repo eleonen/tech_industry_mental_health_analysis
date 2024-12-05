@@ -1,4 +1,4 @@
-### Exploratory Data Analysis of Mental Health in the Tech Industry
+# Exploratory Data Analysis of Mental Health in the Tech Industry
 
 #### **Project Overview**
 This project aims to explore mental health trends in the tech industry, focusing on employer-provided mental health resources, the prevalence of mental health issues, and attitudes toward mental versus physical health. By identifying key patterns and trends, this analysis seeks to uncover actionable insights for improving mental health support in tech workplaces.
