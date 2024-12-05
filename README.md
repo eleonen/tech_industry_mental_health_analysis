@@ -5,16 +5,27 @@ This project aims to explore mental health trends in the tech industry, focusing
 
 ## **Table of Contents**
 1. [Goals of the Analysis](#goals-of-the-analysis)
-2. [Dataset Overview](#dataset-overview)
-3. [Data Cleaning](#data-cleaning)
-4. [Analysis Highlights](#analysis-highlights)
+2. [Setup](#setup)
+3. [Usage](#usage)
+4. [Data Cleaning](#data-cleaning)
+5. [Analysis Highlights](#analysis-highlights)
     - [Sampling Bias](#sampling-bias)
     - [Mental Health Resources](#mental-health-resources)
     - [Prevalence of Mental Health Issues](#prevalence-of-mental-health-issues)
     - [Mental vs. Physical Health](#mental-vs-physical-health)
-5. [Key Findings](#key-findings)
-6. [Improvements and Future Work](#improvements-and-future-work)
+6. [Key Findings](#key-findings)
+7. [Improvements and Future Work](#improvements-and-future-work)
+8. [Contributors](#contributors)
 
+## **Goals of the Analysis**
+
+1. **Primary Objective:** To explore and visualize mental health trends in the tech industry.  
+2. **Key Focus Areas:**
+   - Sampling bias in age, gender, and race distributions.
+   - Trends in employer-provided mental health resources over time.
+   - Common mental health issues within the industry.
+   - Comparison between employer attitudes toward mental and physical health.
+  
 ## Setup
 
 ### Prerequisites
@@ -60,15 +71,6 @@ To interact with the data analysis or run your own queries, use the Jupyter note
    jupyter eda_mental_health_in_tech_industry.ipynb
    ```
 2. Follow the cells to explore the analysis, or modify them to perform your own exploration.
-
-## **Goals of the Analysis**
-
-1. **Primary Objective:** To explore and visualize mental health trends in the tech industry.  
-2. **Key Focus Areas:**
-   - Sampling bias in age, gender, and race distributions.
-   - Trends in employer-provided mental health resources over time.
-   - Common mental health issues within the industry.
-   - Comparison between employer attitudes toward mental and physical health.
 
 ## **Data Cleaning**
 
