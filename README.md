@@ -37,8 +37,8 @@ This project aims to explore mental health trends in the tech industry, focusing
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/TuringCollegeSubmissions/eleone-DS.v3.2.1.5/
-   cd eleone-DS.v3.2.1.5
+   git clone https://github.com/Vixamon/eda-mental-health-in-tech-industry
+   cd eda-mental-health-in-tech-industry
    ```
 
 2. Set up a virtual environment and install dependencies using Poetry:
