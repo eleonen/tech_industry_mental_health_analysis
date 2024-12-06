@@ -1,4 +1,33 @@
+"""
+This module provides functions for analyzing survey data. It includes functionality
+for detecting outliers, visualizing demographic distributions, exploring response
+patterns, and examining correlations among survey questions.
+
+Functions:
+    - find_outliers: Identifies outliers in numerical features using the IQR method.
+    - create_age_histplot: Generates histograms of respondents' ages for each survey year.
+    - create_gender_barplot: Creates bar plots of gender distribution for each survey year.
+    - create_lineplot: Visualizes trends in survey responses over time for specified questions.
+    - create_prevalence_barplot: Displays prevalence rates of mental health
+    issues with confidence intervals.
+    - create_correlation_heatmap: Creates a heatmap of correlations between survey responses.
+    - create_violin_subplots: Compares distributions of responses for pairs of
+    questions using violin plots.
+
+Constants:
+    - colors: Custom color palette for visualizations.
+    - text_to_num_mapping: Mapping of textual responses to numerical values for
+      correlation calculations.
+
+Dependencies:
+    - pandas
+    - numpy
+    - matplotlib
+    - seaborn
+"""
+
 from typing import List, Tuple, Dict
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -44,8 +73,7 @@ def find_outliers(df: pd.DataFrame, features: List[str]) -> List[int]:
         feature_outliers = df[
             (df[feature] < lower_bound) | (df[feature] > upper_bound)
         ][feature]
-        feature_outliers_unique = [int(value) for value in
-                                   feature_outliers.unique()]
+        feature_outliers_unique = [int(value) for value in feature_outliers.unique()]
 
         for value in feature_outliers_unique:
             if value not in outliers_list:

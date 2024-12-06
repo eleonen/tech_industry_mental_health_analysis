@@ -14,12 +14,13 @@ This project aims to explore mental health trends in the tech industry, focusing
     - [Prevalence of Mental Health Issues](#prevalence-of-mental-health-issues)
     - [Mental vs. Physical Health](#mental-vs-physical-health)
 6. [Key Findings](#key-findings)
-7. [Improvements and Future Work](#improvements-and-future-work)
-8. [Contributors](#contributors)
+7. [Actionable Insights for HR](#actionable-insights-for-hr)
+8. [Improvements and Future Work](#improvements-and-future-work)
+9. [Contributors](#contributors)
 
 ## **Goals of the Analysis**
 
-1. **Primary Objective:** To explore and visualize mental health trends in the tech industry.  
+1. **Primary Objective:** To explore and visualize mental health trends in the tech industry, as well as uncover insights for HR departments to improve mental health in the workplace.
 2. **Key Focus Areas:**
    - Sampling bias in age, gender, and race distributions.
    - Trends in employer-provided mental health resources over time.
@@ -76,14 +77,14 @@ To interact with the data analysis or run your own queries, use the Jupyter note
 
 1. **Missing Values:** Cleaned and inspected null entries, particularly in open-ended responses.  
 2. **Duplicates:** Verified that no duplicate rows exist in the dataset.  
-3. **Outliers:** Identified outliers in survey years (2014 and 2019) based on participation rates.  
+3. **Outliers:** No outliers were identified using the IQR method.
 
 ## **Analysis Highlights**
 
 #### **Sampling Bias**
 - **Age Distribution:** Respondents predominantly aged between 25–50, with fewer participants at extremes.  
 - **Gender Representation:** Males accounted for ~70%, aligning with tech industry demographics.  
-- **Race Distribution:** Majority identified as White, with limited representation from other racial groups.
+- **Race Distribution:** Majority identified as White, with limited representation from other racial groups, with racial data only coming from the USA.
 
 #### **Mental Health Resources**
 - **Trends Over Time:** Employers providing mental health resources increased significantly between 2014 and 2019.  
@@ -102,6 +103,12 @@ To interact with the data analysis or run your own queries, use the Jupyter note
 2. **Resource Availability:** Current employers are progressively improving mental health resources, while previous employers lag significantly.  
 3. **Prevalence Rates:** High-stress tech environments contribute to common mental health issues, with mood and anxiety disorders being most reported.  
 4. **Physical vs. Mental Health:** Although physical health is still prioritized, the gap is narrowing with increasing mental health awareness campaigns.
+
+## **Actionable Insights for HR**
+
+1. **Enhance Mental Health Resources:** Prioritize mental health programs, including counseling services, awareness campaigns, and comprehensive benefits packages.
+2. **Provide Tailored Support**: Offer initiatives such as mindfulness workshops, stress management training, and accommodations for conditions like ADHD.
+3. **Promote Health Parity**: Integrate mental health into existing physical health policies, such as introducing mental health days and including mental health coverage in insurance plans.
 
 ## **Improvements and Future Work**    
 
