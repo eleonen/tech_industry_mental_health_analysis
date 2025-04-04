@@ -126,4 +126,4 @@ To interact with the data analysis or run your own queries, use the Jupyter note
     - Encourage respondents to disclose their race to better understand diversity within the tech industry and its impact on mental health trends.
 
 ## Contributors
-- [Erikas Leonenka](https://github.com/Vixamon)
+- [Erikas Leonenka](https://github.com/eleonen)
